@@ -1,1 +1,1 @@
-
+WELCOME TO HANGMAN! 
