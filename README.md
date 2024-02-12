@@ -38,6 +38,19 @@ The word bank for the game features
 
 - This was my first time using Heroku to deploy a project. **The steps are as follows:**
 
-- Create a Heroku account. 
+1. Create a Heroku account. 
+
+2. Create a new app. 
+
+3. Give the app a unique name and select your region from the options. 
+
+4. Connect to GitHub (you may be asked to login).
+
+5. Select which branch you want to deploy from. 
+
+6. Deploy the project. 
+
+- Heroku would be more suitable for backend development which is why it's preferred over GitHub pages for this particular 
+project. 
 
 
