@@ -14,13 +14,33 @@ The word bank for the game features
 - Linter??? (PEP8, Python Checker)
 
 
+# How to play 
+
+- Hangman is a classic guessing game. 
+
+- The first thing to do is select a difficulty from the options provided.
+
+- Secondly, pick a letter and see does it fit the word in question. 
+
+- You will have six guesses for each difficulty. 
+
+- Each guess must be a single letter. 
+
+- Find out how you did after all your guesses are used up. 
+
+# Features 
+
+- Select from different difficulties (beginner, novice, professional).
+
+- 
+
 # User Stories 
 
 - As a new site user, I would like to play the Hangman game. 
 
 - As a new site user, I like to select different difficulties. 
 
-- As A new site user, I would like to see how many guesses I have left. 
+- As a new site user, I would like to see how many guesses I have left. 
 
 
 # Key Project Goals 
@@ -51,6 +71,12 @@ The word bank for the game features
 6. Deploy the project. 
 
 - Heroku would be more suitable for backend development which is why it's preferred over GitHub pages for this particular 
-project. 
+project.
+
+# Credits 
+
+- Code Institute for the project template and deployment terminal. 
+
+
 
 
