@@ -11,3 +11,13 @@ class Hangman:
         self.guessed_letters = set()
         self.display_word = ['_'] * len(self.secret_word)
 
+    def select_word(self):
+
+
+    
+    def display(self):
+
+
+
+    def make_guess(self, letter):
+
