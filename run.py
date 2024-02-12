@@ -9,5 +9,5 @@ class Hangman:
         self.secret_word = self.secret_word()
         self.guesses_left = 6 
         self.guessed_letters = set()
-        self.display_word =['_']
+        self.display_word = ['_'] * len(self.secret_word)
 
