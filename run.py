@@ -34,3 +34,15 @@ class Hangman:
          This is the function which determines whether the game is over
          by running out of guesses or getting the word right
         """
+    
+    def play(self):
+         """
+         Function for playing the game
+         """
+
+
+    word_bank = {
+         "beginner":
+         "novice":
+         "professional":
+         }
