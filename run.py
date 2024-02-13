@@ -41,13 +41,15 @@ class Hangman:
          Function for playing the game
          """
 
-
+# This is my current word bank, I might reduce the amount of words at a later stage
     word_bank = {
          "beginner": ["flow", "tuple", "output", "data", "set", "program"],
          "novice": ["command", "function", "variable", "iteration", "python", "javascript"],
          "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
          }
-
+    
+# This are my diffculties, which also will be changed in due course
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ")
     if difficulty_level not in word_bank:
          print("Invalid choice. The default option is beginner")
+         difficulty_level = "beginner"
