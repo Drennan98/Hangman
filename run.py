@@ -42,7 +42,7 @@ class Hangman:
 
 
     word_bank = {
-         "beginner":
-         "novice":
-         "professional":
+         "beginner": ["flow", "tuple", "output", "data", "set", "program"],
+         "novice": ["command", "function", "variable", "iteration", "python", "javascript"],
+         "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
          }
