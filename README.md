@@ -52,6 +52,8 @@ The word bank for the game features words which relate to this course and world 
 
 # Validations 
 
+- [PEP8]()
+
 
 
 # Deployment 

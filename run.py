@@ -47,3 +47,5 @@ class Hangman:
          "novice": ["command", "function", "variable", "iteration", "python", "javascript"],
          "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
          }
+
+    difficulty_level = input("Choose difficulty (easy, medium, hard): ")
