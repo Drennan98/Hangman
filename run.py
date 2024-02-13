@@ -1,5 +1,7 @@
+# Welcome message 
 print("WELCOME TO HANGMAN!") 
 
+# Importing the random class
 import random 
 
 class Hangman: 
@@ -11,13 +13,20 @@ class Hangman:
         self.guessed_letters = set()
         self.display_word = ['_'] * len(self.secret_word)
 
+    """
+    This function is used to select a word at random
+    """
     def select_word(self):
 
 
-    
+    """
+    This functions is for displaying the game
+    """
     def display(self):
 
 
-
+    """
+    This is the function for guessing a letter
+    """
     def make_guess(self, letter):
 
