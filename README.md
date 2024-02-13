@@ -4,7 +4,7 @@ This is my 3rd project for the Code Institute Full Stack Software Engineering pr
 
 You can find the live version of the site here [here](https://hangman0000-3387183dc1ef.herokuapp.com/).
 
-The word bank for the game features words which relate to this course and world of programming> 
+The word bank for the game features words which relate to this course and world of programming. 
 
 
 # Technologies Ued 
