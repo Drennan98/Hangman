@@ -75,6 +75,10 @@ The word bank for the game features words which relate to this course and world 
 - Heroku would be more suitable for backend development which is why it's preferred over GitHub pages for this particular 
 project.
 
+# Bugs 
+
+- "Describe error with deployment in due course"
+
 # Credits 
 
 - Code Institute for the project template and deployment terminal. 
