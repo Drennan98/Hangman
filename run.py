@@ -4,6 +4,7 @@ print("WELCOME TO HANGMAN!")
 # Importing the random class
 import random 
 
+# Functions and classes 
 class Hangman: 
     def __init__(self, word_bank, difficulty):
         self.word_bank = word_bank
