@@ -4,7 +4,7 @@ This is my 3rd project for the Code Institute Full Stack Software Engineering pr
 
 You can find the live version of the site here [here](https://hangman0000-3387183dc1ef.herokuapp.com/).
 
-The word bank for the game features 
+The word bank for the game features words which relate to this course and world of programming> 
 
 
 # Technologies Ued 
@@ -77,9 +77,11 @@ project.
 
 - Code Institute for the project template and deployment terminal. 
 
-- I used various different tutorials throughout the project 
+- I used various different tutorials throughout the project.
 
 [Tutorial 1](https://www.youtube.com/watch?v=pFvSb7cb_Us)
+
+[Tutorial 2](https://www.youtube.com/watch?v=m4nEnsavl6w)
 
 
 
