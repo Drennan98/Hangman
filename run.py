@@ -13,20 +13,24 @@ class Hangman:
         self.guessed_letters = set()
         self.display_word = ['_'] * len(self.secret_word)
 
-    """
-    This function is used to select a word at random
-    """
+  
     def select_word(self):
+          """
+    This function is used to select a word at random
+        """
 
-
-    """
-    This functions is for displaying the game
-    """
     def display(self):
+          """
+    This functions is for displaying the game
+        """
 
-
-    """
-    This is the function for guessing a letter
-    """
     def make_guess(self, letter):
-
+         """
+    This is the function for guessing a letter
+        """
+         
+    def is_game_over(self):
+         """
+         This is the function which determines whether the game is over
+         by running out of guesses or getting the word right
+        """

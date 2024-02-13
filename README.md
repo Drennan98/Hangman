@@ -77,6 +77,10 @@ project.
 
 - Code Institute for the project template and deployment terminal. 
 
+- I used various different tutorials throughout the project 
+
+[Tutorial 1](https://www.youtube.com/watch?v=pFvSb7cb_Us)
+
 
 
 
