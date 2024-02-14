@@ -77,7 +77,7 @@ project.
 
 # Bugs 
 
-- "Describe error with deployment in due course"
+- "Describe error with deployment in due course".
 
 # Credits 
 

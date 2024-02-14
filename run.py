@@ -24,6 +24,8 @@ class Hangman:
           """
     This functions is for displaying the game
         """
+          print("Guesses left: ")
+          print("Guessed letters: ")
 
     def make_guess(self, letter):
          """
