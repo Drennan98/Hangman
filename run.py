@@ -19,11 +19,13 @@ class Hangman:
           """
     This function is used to select a word at random
         """
+          return random.choice(self.word_bank[self.difficulty])
 
     def display(self):
           """
     This functions is for displaying the game
         """
+          print(" ".join(self.display_word))
           print("Guesses left: ")
           print("Guessed letters: ")
 
