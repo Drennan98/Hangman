@@ -53,7 +53,7 @@ class Hangman:
          }
     
 # These are my diffculties, which also will be changed in due course
-    difficulty_level = input("Choose difficulty (beginner, novice, professional): ")
+    difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
          print("Invalid choice. The default difficulty is beginner")
          difficulty_level = "beginner"
