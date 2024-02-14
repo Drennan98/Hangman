@@ -46,6 +46,7 @@ class Hangman:
          """
 
 # This is my current word bank, I might reduce the amount of words at a later stage
+if __name__ == "__main__":
     word_bank = {
          "beginner": ["flow", "tuple", "output", "data", "set", "program"],
          "novice": ["command", "function", "variable", "iteration", "python", "javascript"],
