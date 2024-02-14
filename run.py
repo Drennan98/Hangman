@@ -1,5 +1,5 @@
 # Welcome message 
-print("WELCOME TO HANGMAN!") 
+print("WELCOME TO HANGMAN!")
 
 # Importing the random class
 import random 
@@ -55,5 +55,5 @@ class Hangman:
 # These are my diffculties, which also will be changed in due course
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ")
     if difficulty_level not in word_bank:
-         print("Invalid choice. The default option is beginner")
+         print("Invalid choice. The default difficulty is beginner")
          difficulty_level = "beginner"
