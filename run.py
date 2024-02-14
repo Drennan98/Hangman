@@ -50,7 +50,7 @@ class Hangman:
          "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
          }
     
-# This are my diffculties, which also will be changed in due course
+# These are my diffculties, which also will be changed in due course
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ")
     if difficulty_level not in word_bank:
          print("Invalid choice. The default option is beginner")

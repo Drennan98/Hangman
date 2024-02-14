@@ -1,4 +1,4 @@
-# Welcome to Hangman! 
+##  Welcome to Hangman! 
 
 This is my 3rd project for the Code Institute Full Stack Software Engineering program. 
 
