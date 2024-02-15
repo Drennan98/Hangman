@@ -14,6 +14,8 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 - Linter??? (PEP8, Python Checker)
 
+- [PythonTutor](https://pythontutor.com/)
+
 
 # How to play 
 
