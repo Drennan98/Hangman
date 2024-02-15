@@ -25,14 +25,12 @@ class Hangman:
           """
     This functions is for displaying the game
         """
-          print(" ".join(self.display_word))
-          print("Guesses left: ")
-          print("Guessed letters: ")
 
     def make_guess(self, letter):
          """
     This is the function for guessing a letter
         """
+         
          
     def is_game_over(self):
          """
