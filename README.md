@@ -35,8 +35,6 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 - Select from different difficulties (beginner, novice, professional).
 
-- 
-
 # User Stories 
 
 - As a new site user, I would like to play the Hangman game. 
@@ -45,19 +43,15 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 - As a new site user, I would like to see how many guesses I have left. 
 
-
 # Key Project Goals 
 
 - I want to make a Hangman Python program which also incorporates object-oriented programming (OOP) concepts.
 
 - I want the program to be user friendly and easy to understand. 
 
-
 # Validations 
 
 - [PEP8]()
-
-
 
 # Deployment 
 

@@ -31,7 +31,6 @@ class Hangman:
     This is the function for guessing a letter
         """
          
-         
     def is_game_over(self):
          """
          This is the function which determines whether the game is over
