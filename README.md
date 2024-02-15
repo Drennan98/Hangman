@@ -4,8 +4,6 @@ This is my 3rd project for the Code Institute Full Stack Software Engineering pr
 
 You can find the live version of the site here [here](https://hangman0000-3387183dc1ef.herokuapp.com/).
 
-The word bank for the game features words which relate to this course and world of programming.
-
 At the time of development I was still pretty new to Python so this project was pretty challenging at times. But I definitely
 found it alot easier to handle than JavaScript. I started off putting together the pieces that I was comfortable with. The word bank contains words which are relative to programming which is a little hint for potential players! 
 
