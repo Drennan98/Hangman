@@ -16,6 +16,8 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 - [PythonTutor](https://pythontutor.com/)
 
+- [PyPi](https://pypi.org/project/art/s)
+
 
 # How to play 
 
