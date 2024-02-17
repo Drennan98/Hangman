@@ -74,7 +74,7 @@ project.
 
 # Bugs 
 
-- "Describe error with deployment in due course".
+- At the beginning of development, I had some minor issues with deploying. .
 
 # Credits 
 

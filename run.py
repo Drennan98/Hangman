@@ -1,5 +1,6 @@
+from art import *
 # Welcome message 
-print("WELCOME TO HANGMAN!")
+print(text2art("Welcome To Hangman!", space=1))
 
 # Importing the random class
 import random 
@@ -16,23 +17,24 @@ class Hangman:
 
   
     def select_word(self):
-          """
-    This function is used to select a word at random
         """
-          return random.choice(self.word_bank[self.difficulty])
+        This function is used to select a word at random
+        """
+        return random.choice(self.word_bank[self.difficulty])
 
     def display(self):
-          """
-    This functions is for displaying the game
+        """
+        This functions is for displaying the game
         """
 
     def make_guess(self, letter):
-         """
-    This is the function for guessing a letter
         """
-         
+        This is the function for guessing a letter
+        :param letter: guessed letter
+        """
+        print(letter)
     def is_game_over(self):
-         """
+        """
          This is the function which determines whether the game is over
          by running out of guesses or getting the word right
         """
