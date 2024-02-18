@@ -84,6 +84,8 @@ project.
 
 - I used various different tutorials throughout the project.
 
+- [Stack Overflow](https://stackoverflow.com/)
+
 [Tutorial 1](https://www.youtube.com/watch?v=pFvSb7cb_Us)
 
 [Tutorial 2](https://www.youtube.com/watch?v=m4nEnsavl6w)
