@@ -56,6 +56,12 @@ class Hangman:
          This is the function which determines whether the game is over
          by running out of guesses or getting the word right
         """
+        if "_" not in self.display_word:
+            print("Well done! You guessed the correct word, which was:", self.secret_word)
+            return True
+        elif self.guessed_letters == 0:
+            print("The game is over! The word was:", self.secret_word)
+            return True
     
     def play(self):
          """

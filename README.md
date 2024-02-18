@@ -97,5 +97,7 @@ code together than I did with JavaScript.
 
 - I used [this tutorial](https://www.w3schools.com/python/python_for_loops.asp) to enhance my learning on For Loops. 
 
+- Further information on [While Not](https://stackoverflow.com/questions/4908666/how-to-use-while-not-in).
+
 
 
