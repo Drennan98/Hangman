@@ -26,7 +26,10 @@ class Hangman:
         """
         This functions is for displaying the game
         """
-
+        print(" ".join(self.display_word))
+        print(f"Number of guesses left: {self.guesses_left}")
+        print(f"Guessed letters: {self.guessed_letters}")
+        
     def make_guess(self, letter):
         """
         This is the function for guessing a letter

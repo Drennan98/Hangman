@@ -91,7 +91,7 @@ project.
 [Tutorial 3](https://www.youtube.com/watch?v=5x6iAKdJB6U)
 
 - I found the lessons and challenges in the Code Institute really helpful and found it easier to put blocks of
-code together than JavaScript. 
+code together than I did with JavaScript. 
 
 
 
