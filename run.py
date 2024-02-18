@@ -45,7 +45,7 @@ class Hangman:
         if letter in self.secret_word:
             for x in range(len(self.secret_word)):
                 if self.secret_word[x] == letter:
-                    self.display_word[x]
+                    self.display_word[x] = letter
 
         else:
             self.guesses_left -= 1
@@ -58,7 +58,7 @@ class Hangman:
         if "_" not in self.display_word:
             print("Well done! You guessed the correct word, which was:", self.secret_word)
             return True
-        elif self.guessed_letters == 0:
+        elif self.guesses_left == 0:
             print("The game is over! The word was:", self.secret_word)
             return True
         return False
@@ -89,6 +89,6 @@ if __name__ == "__main__":
     if difficulty_level not in word_bank:
          print("Invalid choice. The default difficulty is novice.")
          difficulty_level = "novice"
-
-    hangman_game = Hangman(word_bank, difficulty_level)
-    hangman_game.play
+    else:
+        hangman_game = Hangman(word_bank, difficulty_level)
+        hangman_game.play()
