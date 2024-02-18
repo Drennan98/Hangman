@@ -91,5 +91,5 @@ if __name__ == "__main__":
          print("Invalid choice. The default difficulty is novice")
          difficulty_level = "novice"
 
-    hangman_game = Hangman()
+    hangman_game = Hangman(word_bank, difficulty_level)
     hangman_game.play
