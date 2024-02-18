@@ -29,12 +29,27 @@ class Hangman:
         print(" ".join(self.display_word))
         print(f"Number of guesses left: {self.guesses_left}")
         print(f"Guessed letters: {self.guessed_letters}")
-        
+
     def make_guess(self, letter):
         """
         This is the function for guessing a letter
         :param letter: guessed letter
         """
+        if letter in self.guessed_letters: 
+            print("You have already guessed that letter. Please pick a different letter")
+            return
+        
+        self.guessed_letters.add(letter)
+
+        if letter in self.secret_word:
+            for x in range(len(self.secret_word)):
+                if self.secret_word[x] == letter:
+                    self.display_word[x]
+
+        else:
+            self.guesses_left -= 1
+
+
         print(letter)
     def is_game_over(self):
         """
