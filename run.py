@@ -62,11 +62,20 @@ class Hangman:
         elif self.guessed_letters == 0:
             print("The game is over! The word was:", self.secret_word)
             return True
+        return False
     
     def play(self):
          """
          Function for playing the game
          """
+         while not self.is_game_over():
+            self.display()
+            guess = input("Enter your guess:").lower()
+
+            if len(guess) == 1 and guess.isalpha():
+                self.make_guess(guess)
+            else:
+                print("Please enter a single letter.")
 
 # This is my current word bank, I might reduce the amount of words at a later stage
 if __name__ == "__main__":
@@ -79,5 +88,5 @@ if __name__ == "__main__":
 # These are my diffculties, which also will be changed in due course
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
-         print("Invalid choice. The default difficulty is beginner")
-         difficulty_level = "beginner"
+         print("Invalid choice. The default difficulty is novice")
+         difficulty_level = "novice"
