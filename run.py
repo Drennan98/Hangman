@@ -50,8 +50,6 @@ class Hangman:
         else:
             self.guesses_left -= 1
 
-
-        print(letter)
     def is_game_over(self):
         """
          This is the function which determines whether the game is over
@@ -71,7 +69,7 @@ class Hangman:
          """
          while not self.is_game_over():
             self.display()
-            guess = input("Enter your guess:").lower()
+            guess = input("Enter your guess: ").lower()
 
             if len(guess) == 1 and guess.isalpha():
                 self.make_guess(guess)
@@ -89,7 +87,7 @@ if __name__ == "__main__":
 # These are my diffculties, which also will be changed in due course
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
-         print("Invalid choice. The default difficulty is novice")
+         print("Invalid choice. The default difficulty is novice.")
          difficulty_level = "novice"
 
     hangman_game = Hangman(word_bank, difficulty_level)
