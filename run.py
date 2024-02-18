@@ -1,3 +1,4 @@
+# Import art 
 from art import *
 # Welcome message 
 print(text2art("Welcome To Hangman!", space=1))
