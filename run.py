@@ -30,7 +30,7 @@ class Hangman:
         """
         print(" ".join(self.display_word))
         print(f"Number of guesses left: {self.guesses_left}")
-        print(f"Guessed letters: {", ".join((self.guessed_letters))}")
+        print(f"Guessed letters: {', '.join((self.guessed_letters))}")
 
     def make_guess(self, letter):
         """
