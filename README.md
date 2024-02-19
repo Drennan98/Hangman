@@ -101,5 +101,7 @@ code together than I did with JavaScript.
 
 - Further information on [While Not](https://stackoverflow.com/questions/4908666/how-to-use-while-not-in).
 
+- I used this video for reference about my [commit messages](https://www.youtube.com/watch?v=gZ5pEPO24Uc).
+
 
 
