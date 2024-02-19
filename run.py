@@ -2,7 +2,7 @@
 from art import *
 
 # Welcome message 
-print(text2art("Welcome To Hangman!", space=0))
+print(text2art("Lets Play Hangman!", space=0))
 
 # Importing the random class
 import random 

@@ -103,5 +103,7 @@ code together than I did with JavaScript.
 
 - I used this video for reference about my [commit messages](https://www.youtube.com/watch?v=gZ5pEPO24Uc).
 
+- I used this [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) for help with commands which I 
+wasn't used to using or which I have never used before e.g 
 
 
