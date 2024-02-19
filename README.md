@@ -95,7 +95,7 @@ project.
 - I found the lessons and challenges in the Code Institute really helpful and found it easier to put blocks of
 code together than I did with JavaScript. 
 
-- I sought further clarity on "If Elifs" using [this tutorial](https://www.w3schools.com/python/gloss_python_elif.asp#:~:text=The%20elif%20keyword%20is%20pythons,%2C%20then%20try%20this%20condition%22.)
+- I sought further clarity on "If Elifs" using [this tutorial](https://www.w3schools.com/python/gloss_python_elif.asp#:~:text=The%20elif%20keyword%20is%20pythons,%2C%20then%20try%20this%20condition%22.).
 
 - I used [this tutorial](https://www.w3schools.com/python/python_for_loops.asp) to enhance my learning on For Loops. 
 

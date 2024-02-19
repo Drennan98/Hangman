@@ -85,7 +85,9 @@ if __name__ == "__main__":
          "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
          }
     
-# These are my diffculties, which also will be changed in due course
+# I came across an issue where the game would end when I picked a difficulty that
+# wasn't available. So I used a While Loop, the commit message for this change is rather long
+# so I'm putting in a comment to explain what I was thinking. 
 while True:
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
