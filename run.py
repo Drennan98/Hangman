@@ -57,10 +57,10 @@ class Hangman:
          by running out of guesses or getting the word right
         """
         if "_" not in self.display_word:
-            print("Well done! You guessed the correct word, which was:", self.secret_word)
+            print("Well done! You guessed the correct word, which was: :)", self.secret_word)
             return True
         elif self.guesses_left == 0:
-            print("The game is over! The word was:", self.secret_word)
+            print("The game is over! The word was: :()", self.secret_word)
             return True
         return False
     
