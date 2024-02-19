@@ -1,7 +1,8 @@
 # Import art 
 from art import *
+
 # Welcome message 
-print(text2art("Welcome To Hangman!", space=1))
+print(text2art("Welcome To Hangman!", space=0))
 
 # Importing the random class
 import random 
@@ -85,10 +86,11 @@ if __name__ == "__main__":
          }
     
 # These are my diffculties, which also will be changed in due course
+while True:
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
-         print("Invalid choice. The default difficulty is novice.")
-         difficulty_level = "novice"
+         print("Invalid choice. Please select from one of the available difficulties")  
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
         hangman_game.play()
+        break
