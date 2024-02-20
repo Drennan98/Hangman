@@ -21,7 +21,7 @@ found it alot easier to handle than JavaScript. I started off putting together t
 - The basic program layout, the "_" represent the number of letters in the word. The user can also see the number of guesses left
 and the guessed letters. The user must enter a single letter. 
 
-![Multiple letter input](images/multipleletterselection)
+![Multiple letter input](images/multipleletterselection.png)
 
 
 # Technologies Ued 
