@@ -1,8 +1,11 @@
-# Import art 
+# Import art and color
 from art import *
+from colorama import init
+init()
 
 # Welcome message 
-print(text2art("Hangman!", space=1))
+print(text2art("Hangman!", space=0))
+print(text2art("Best Of Luck :D"))
 
 # Importing the random class
 import random 

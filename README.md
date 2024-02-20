@@ -10,7 +10,7 @@ At the time of development I was still pretty new to Python so this project was 
 found it alot easier to handle than JavaScript. I started off putting together the pieces that I was comfortable with. The word bank contains words which are relative to programming which is a little hint for potential players! 
 
 
-#  Technologies Ued 
+# Technologies Ued 
 
 - Python 
 
@@ -21,7 +21,7 @@ found it alot easier to handle than JavaScript. I started off putting together t
 - [PyPi](https://pypi.org/project/art/s)
 
 
-#  How to play 
+# How to play 
 
 - Hangman is a classic guessing game. 
 
@@ -53,7 +53,7 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 - I want the program to be user friendly and easy to understand. 
 
-# Validations 
+# Validations 
 
 - [PEP8]()
 
@@ -80,7 +80,7 @@ project.
 
 - At the beginning of development, I had some minor issues with deploying. .
 
-# Credits 
+# Credits 
 
 - Code Institute for the project template and deployment terminal. 
 
