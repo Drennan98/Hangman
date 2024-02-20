@@ -1,7 +1,5 @@
 # Import art and color
 from art import *
-from colorama import init
-init()
 
 # Welcome message 
 print(text2art("Hangman!", space=0))
