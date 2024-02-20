@@ -41,7 +41,7 @@ class Hangman:
         :param letter: guessed letter
         """
         if letter in self.guessed_letters: 
-            print("You have already guessed that letter. Please pick a different letter")
+            print(colored("You have already guessed that letter. Please pick a different letter", "yellow"))
             return
         
         self.guessed_letters.add(letter)
