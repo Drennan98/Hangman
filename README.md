@@ -1,4 +1,6 @@
-# Welcome to Hangman! 
+# Welcome to Hangman!
+
+![Start of game](images/startofprogram.png)
 
 This is my 3rd project for the Code Institute Full Stack Software Engineering program. 
 
