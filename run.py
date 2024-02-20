@@ -1,6 +1,8 @@
 # Import art and color
 from art import *
 
+from termcolor import colored
+
 # Welcome message 
 print(text2art("Hangman!", space=0))
 print(text2art("Best Of Luck :D"))
@@ -92,7 +94,7 @@ if __name__ == "__main__":
 while True:
     difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
     if difficulty_level not in word_bank:
-         print("Invalid choice. Please select from one of the available difficulties")  
+         print(colored("Invalid choice. Please select from one of the available difficulties", "red"))  
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
         hangman_game.play()
