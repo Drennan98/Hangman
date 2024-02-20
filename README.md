@@ -1,6 +1,5 @@
 # Welcome to Hangman!
 
-![Start of game](images/startofprogram.png)
 
 This is my 3rd project for the Code Institute Full Stack Software Engineering program. 
 
@@ -8,6 +7,21 @@ You can find the live version of the site here [here](https://hangman0000-338718
 
 At the time of development I was still pretty new to Python so this project was pretty challenging at times. But I definitely
 found it alot easier to handle than JavaScript. I started off putting together the pieces that I was comfortable with. The word bank contains words which are relative to programming which is a little hint for potential players! 
+
+# Stages of the program 
+
+- When the game loads up, this is what the user will see.
+
+![Start of game](images/startofprogram.png)
+
+- When the user selects a difficulty that's not available.
+
+![Wrong difficulty selection](images/wrongdifficulty.png)
+
+- The basic program layout, the "_" represent the number of letters in the word. The user can also see the number of guesses left
+and the guessed letters. The user must enter a single letter. 
+
+![Multiple letter input](images/multipleletterselection)
 
 
 # Technologies Ued 
