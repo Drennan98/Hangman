@@ -77,7 +77,9 @@ and the guessed letters. The user must enter a single letter.
 
 # Validations 
 
-- ![PEP8](images/pythonvalidation.png)
+- My Python code pass through the linter with no issues and scored 100%.
+
+![PEP8](images/pythonvalidation.png)
 
 # Deployment 
 
