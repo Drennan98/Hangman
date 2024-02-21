@@ -36,7 +36,7 @@ and the guessed letters. The user must enter a single letter.
 
 - Python 
 
-- Linter??? (PEP8, Python Checker)
+- [PythonChecker](https://www.pythonchecker.com/)
 
 - [PythonTutor](https://pythontutor.com/)
 
@@ -77,7 +77,7 @@ and the guessed letters. The user must enter a single letter.
 
 # Validations 
 
-- [PEP8]()
+- [PEP8](images/pythonvalidation.png)
 
 # Deployment 
 
