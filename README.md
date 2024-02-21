@@ -7,7 +7,7 @@ You can find the live version of the site here [here](https://hangman0000-338718
 At the time of development I was still pretty new to Python so this project was pretty challenging at times. But I definitely
 found it alot easier to handle than JavaScript. I started off putting together the pieces that I was comfortable with. The word bank contains words which are relative to programming which is a little hint for potential players! 
 
-# Stages Of The Program / Color Code
+## Stages Of The Program / Color Code
 
 - When the game loads up, this is what the user will see.
 
@@ -32,7 +32,7 @@ and the guessed letters. The user must enter a single letter.
 
 - The messages are color coded for readability. They were previously all white which was difficult to read. 
 
-# Technologies Ued 
+## Technologies Used 
 
 - Python 
 
@@ -43,7 +43,7 @@ and the guessed letters. The user must enter a single letter.
 - [PyPi](https://pypi.org/project/art/s)
 
 
-# How to play 
+## How To Play 
 
 - Hangman is a classic guessing game. 
 
