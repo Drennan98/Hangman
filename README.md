@@ -21,7 +21,16 @@ found it alot easier to handle than JavaScript. I started off putting together t
 - The basic program layout, the "_" represent the number of letters in the word. The user can also see the number of guesses left
 and the guessed letters. The user must enter a single letter. 
 
-![Multiple letter input](images/multipleletterselection.png)
+![Multiple letter input](images/multipleletterselection.png) ![Program layout](assets/programlayput)
+
+- A yellow warning message appears when you guess a letter which was already guessed. 
+
+![Already guessed letter](images/alreadyguessedletter.png)
+
+- A green message "Well done!" message awaits the user when they guess the correct word. 
+
+![Guess correct word](images/guesscorrectword.png)
+
 
 
 # Technologies Ued 
