@@ -77,7 +77,7 @@ and the guessed letters. The user must enter a single letter.
 
 # Validations 
 
-- [PEP8](images/pythonvalidation.png)
+- ![PEP8](images/pythonvalidation.png)
 
 # Deployment 
 
