@@ -78,7 +78,7 @@ class Hangman:
             if len(guess) == 1 and guess.isalpha():
                 self.make_guess(guess)
             else:
-                print("Please enter a single letter.")
+                print(colored("Please enter a single letter.", "blue"))
 
 # This is my current word bank, I might reduce the amount of words at a later stage
 if __name__ == "__main__":
