@@ -102,7 +102,8 @@ project.
 
 # Bugs 
 
-- At the beginning of development, I had some minor issues with deploying. .
+- At the beginning of development, I had some minor issues with deploying. I fixed it by removing a dependancy from
+my requirements.txt. 
 
 # Credits 
 
