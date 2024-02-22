@@ -65,7 +65,7 @@ class Hangman:
             print(colored("You guessed the correct word!"), self.secret_word)
             return True
         elif self.guesses_left == 0:
-            print(colored("The game is over!", "blue"), self.secret_word)
+            print(colored("The game is over!", "blue"))
             return True
         return False
 
