@@ -36,7 +36,7 @@ and the guessed letters. The user must enter a single letter.
 
 - Python 
 
-- [PythonChecker](https://www.pythonchecker.com/)
+- [Python Linter](https://pep8ci.herokuapp.com/)
 
 - [PythonTutor](https://pythontutor.com/)
 
@@ -79,7 +79,7 @@ and the guessed letters. The user must enter a single letter.
 
 - My Python code pass through the linter with no issues and scored 100%.
 
-![PEP8](images/pythonvalidation.png)
+
 
 # Deployment 
 
