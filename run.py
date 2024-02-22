@@ -95,9 +95,9 @@ if __name__ == "__main__":
 # While Loop for running the game
 
 while True:
-    difficulty_level = input("Choose from available difficulties: ").lower()
+    difficulty_level = input("Choose from beginner, novice or professional: ")
     if difficulty_level not in word_bank:
-        print(colored("Invalid choice. Please select from difficulties, "red"))
+        print(colored("Wrong choice. Please select from difficulties", "red"))
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
         hangman_game.play()
