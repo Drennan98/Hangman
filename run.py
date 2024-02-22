@@ -11,7 +11,10 @@ print(text2art("Best Of Luck :D"))
 import random 
 
 # Functions and classes 
-class Hangman: 
+class Hangman:
+    """
+    This class...
+    """ 
     def __init__(self, word_bank, difficulty):
         self.word_bank = word_bank
         self.difficulty = difficulty
