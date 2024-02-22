@@ -1,29 +1,29 @@
-# Import art and color
-from art import *
+# Import art and color
 
+from art import *
 from termcolor import colored
 
-# Welcome message 
+# Import random
+
+import random
+
+# Welcome message
+
 print(text2art("Hangman!", space=0))
 print(text2art("Best Of Luck :D"))
 
-# Importing the random class
-import random 
+# Functions and classes
 
-# Functions and classes 
+
 class Hangman:
-    """
-    This class...
-    """ 
     def __init__(self, word_bank, difficulty):
         self.word_bank = word_bank
         self.difficulty = difficulty
         self.secret_word = self.select_word()
-        self.guesses_left = 6 
+        self.guesses_left = 6
         self.guessed_letters = set()
         self.display_word = ['_'] * len(self.secret_word)
 
-  
     def select_word(self):
         """
         This function is used to select a word at random
@@ -43,10 +43,9 @@ class Hangman:
         This is the function for guessing a letter
         :param letter: guessed letter
         """
-        if letter in self.guessed_letters: 
-            print(colored("You have already guessed that letter. Please pick a different letter", "yellow"))
+        if letter in self.guessed_letters:
+            print(colored("Please pick a different letter", "yellow"))
             return
-        
         self.guessed_letters.add(letter)
 
         if letter in self.secret_word:
@@ -63,18 +62,18 @@ class Hangman:
          by running out of guesses or getting the word right
         """
         if "_" not in self.display_word:
-            print(colored("Well done! You guessed the correct word, which was: ", "green"), self.secret_word)
+            print(colored("You guessed the correct word!"), self.secret_word)
             return True
         elif self.guesses_left == 0:
-            print(colored("The game is over! The word was: ", "blue"), self.secret_word)
+            print(colored("The game is over!", "blue"), self.secret_word)
             return True
         return False
-    
+
     def play(self):
-         """
-         Function for playing the game
-         """
-         while not self.is_game_over():
+        """
+        Function for playing the game
+        """
+        while not self.is_game_over():
             self.display()
             guess = input("Enter your guess: ").lower()
 
@@ -83,21 +82,22 @@ class Hangman:
             else:
                 print(colored("Please enter a single letter.", "blue"))
 
-# This is my current word bank, I might reduce the amount of words at a later stage
+# This is my current word bank
+
+
 if __name__ == "__main__":
     word_bank = {
          "beginner": ["flow", "tuple", "output", "data", "set", "program"],
-         "novice": ["command", "function", "variable", "iteration", "python", "javascript"],
-         "professional": ["debugging", "structures", "oriented", "portfolio", "comparators", "exception" ]
+         "novice": ["command", "function", "variable", "iteration", "python"],
+         "professional": ["debugging", "structures", "portfolio", "importing"]
          }
-    
-# I came across an issue where the game would end when I picked a difficulty that
-# wasn't available. So I used a While Loop, the commit message for this change is rather long
-# so I'm putting in a comment to explain what I was thinking. 
+
+# While Loop for running the game
+
 while True:
-    difficulty_level = input("Choose difficulty (beginner, novice, professional): ").lower()
+    difficulty_level = input("Choose from available difficulties: ").lower()
     if difficulty_level not in word_bank:
-         print(colored("Invalid choice. Please select from one of the available difficulties", "red"))  
+        print(colored("Invalid choice. Please select from difficulties, "red"))
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
         hangman_game.play()
