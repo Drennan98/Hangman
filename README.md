@@ -107,6 +107,10 @@ my requirements.txt.
 
 # Credits 
 
+- My mentor Spencer, for his constant guidance and reassurance. 
+
+- My colleague and friend, Katherine, for testing out the program and making sure it worked. 
+
 - Code Institute for the project template and deployment terminal. 
 
 - I used various different tutorials throughout the project.
@@ -131,6 +135,7 @@ code together than I did with JavaScript.
 - I used this video for reference about my [commit messages](https://www.youtube.com/watch?v=gZ5pEPO24Uc).
 
 - I used this [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) for help with commands which I 
-wasn't used to using or which I have never used before e.g 
+wasn't used to using or which I have never used before.
+
 
 
