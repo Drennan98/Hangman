@@ -79,7 +79,7 @@ and the guessed letters. The user must enter a single letter.
 
 - My Python code pass through the linter with no issues and scored 100%.
 
-
+![Python Validation](images/pythonvalidation.png)
 
 # Deployment 
 
