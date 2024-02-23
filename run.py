@@ -55,7 +55,7 @@ def display_hangman(guessed_letters):
     --------
     |      |
     |      O
-    |     /|\
+    |     /|\\
     |      
     |
     |
@@ -64,8 +64,8 @@ def display_hangman(guessed_letters):
     --------
     |      |
     |      O
-    |     /|\
-    |     / \
+    |     /|\\
+    |     / \\
     |
     |
     """
@@ -112,7 +112,7 @@ class Hangman:
 
         else:
             self.guesses_left -= 1
-            guesses_used = (6 - self.guesses_left)
+            guesses_used = (5 - self.guesses_left)
             display_hangman(guesses_used)
 
     def is_game_over(self):
