@@ -32,7 +32,7 @@ and the guessed letters. The user must enter a single letter.
 
 - The messages are color coded for readability. They were previously all white which was difficult to read. 
 
-## Technologies Used 
+## Technologies Used 
 
 - Python 
 
@@ -61,7 +61,7 @@ and the guessed letters. The user must enter a single letter.
 
 - Select from different difficulties (beginner, novice, professional).
 
-# User Stories 
+##  User Stories 
 
 - As a new site user, I would like to play the Hangman game. 
 
