@@ -104,7 +104,7 @@ class Hangman:
         :param letter: guessed letter
         """
         if letter in self.guessed_letters:
-            print(colored("Please pick a different letter", "yellow"))
+            print(colored("You already guessed that letter!", "yellow"))
             return
         self.guessed_letters.add(letter)
 
@@ -127,7 +127,8 @@ class Hangman:
             print(colored("You guessed the correct word!"), self.secret_word)
             return True
         elif self.guesses_left == 0:
-            print(colored("The game is over!", "blue"))
+            print(colored("The game is over! "
+                  "The correct word was", "blue"), self.secret_word)
             return True
         return False
 
@@ -142,7 +143,7 @@ class Hangman:
             if len(guess) == 1 and guess.isalpha():
                 self.make_guess(guess)
             else:
-                print(colored("Please enter a single letter.", "blue"))
+                print(colored("Please enter a single letter!", "blue"))
 
 # This is my current word bank
 
