@@ -13,7 +13,64 @@ print(text2art("Hangman!", space=0))
 print(text2art("Best Of Luck :D"))
 
 # Functions and classes
-
+def display_hangman(guessed_letters):
+    stages = [
+    """
+    --------
+    |      |
+    |
+    |
+    |
+    |
+    |
+    """,
+    """
+    --------
+    |      |
+    |      O
+    |
+    |
+    |
+    |
+    """,
+    """
+    --------
+    |      |
+    |      O
+    |      |
+    |
+    |
+    |
+    """,
+    """
+    --------
+    |      |
+    |      O
+    |     /|
+    |      
+    |
+    |
+    """,
+    """
+    --------
+    |      |
+    |      O
+    |     /|\
+    |      
+    |
+    |
+    """,
+    """
+    --------
+    |      |
+    |      O
+    |     /|\
+    |     / \
+    |
+    |
+    """
+    ]
+    print(stages[guessed_letters])
 
 class Hangman:
     def __init__(self, word_bank, difficulty):
@@ -55,6 +112,8 @@ class Hangman:
 
         else:
             self.guesses_left -= 1
+            guesses_used = (6 - self.guesses_left)
+            display_hangman(guesses_used)
 
     def is_game_over(self):
         """
