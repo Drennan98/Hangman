@@ -105,7 +105,7 @@ class Hangman:
         """
         if letter in self.guessed_letters:
             print(colored("You already guessed that letter! "
-                        "Please pick a different letter!", "yellow"))
+                  "Please pick a different letter!", "yellow"))
             return
         self.guessed_letters.add(letter)
 
