@@ -57,6 +57,8 @@ and the guessed letters. The user must enter a single letter.
 
 - Find out how you did after all your guesses are used up. 
 
+- If you guess the correct letter then your number of guesses doesn't decrease! 
+
 # Features 
 
 - Select from different difficulties (beginner, novice, professional).
