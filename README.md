@@ -63,7 +63,7 @@ and the guessed letters. The user must enter a single letter.
 
 - Select from different difficulties (beginner, novice, professional).
 
-##  User Stories 
+# User Stories 
 
 - As a new site user, I would like to play the Hangman game. 
 
@@ -76,6 +76,8 @@ and the guessed letters. The user must enter a single letter.
 - I want to make a Hangman Python program which also incorporates object-oriented programming (OOP) concepts.
 
 - I want the program to be user friendly and easy to understand. 
+
+- I want the program to have color coded feedback messages for easier readability. 
 
 # Validations 
 
