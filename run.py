@@ -168,6 +168,9 @@ while True:
                       "red"))
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
-        print("Do you want to play again?")
         hangman_game.play()
         break
+
+    game_loop = input("would you like to play again? Y/N?: ").lower()
+    if game_loop != "Y":
+        break 
