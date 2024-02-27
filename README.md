@@ -63,6 +63,8 @@ and the guessed letters. The user must enter a single letter.
 
 - Select from different difficulties (beginner, novice, professional).
 
+- The user will have the option to start the game again at the end by selecting "y" or "n" for yes and no respectively.
+
 # User Stories 
 
 - As a new site user, I would like to play the Hangman game. 
