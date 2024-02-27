@@ -166,11 +166,12 @@ while True:
     if difficulty_level not in word_bank:
         print(colored("Invalid choice. Please select from difficulties!",
                       "red"))
-    else:
-        hangman_game = Hangman(word_bank, difficulty_level)
-        hangman_game.play()
-        break
+        continue
 
-    game_loop = input("would you like to play again? Y/N?: ").lower()
-    if game_loop != "Y":
-        break 
+    hangman_game = Hangman(word_bank, difficulty_level)
+    hangman_game.play()
+
+    game_loop = input("Would you like to play again? y/n?: ").lower().strip()
+    if game_loop != "y":
+        print(colored("THANKS FOR PLAYING!", "green"))
+        break
