@@ -160,10 +160,14 @@ if __name__ == "__main__":
 # While Loop for running the game
 
 while True:
-    difficulty_level = input("Choose from beginner, novice or professional: ")
+    difficulty = "Choose from beginner, novice or professional: "
+    # Spencer (mentor) suggested the inclusion of ".lower().strip()"
+    difficulty_level = input(f"{difficulty}").lower().strip()
     if difficulty_level not in word_bank:
-        print(colored("Wrong choice. Please select from difficulties!", "red"))
+        print(colored("Invalid choice. Please select from difficulties!",
+                      "red"))
     else:
         hangman_game = Hangman(word_bank, difficulty_level)
+        print("Do you want to play again?")
         hangman_game.play()
         break
