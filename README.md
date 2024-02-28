@@ -17,6 +17,17 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 ![Program Layout](images/programlayout.png)
 
+- I've set up the program to print colored messages for ease of readability.
+
+- There is error messages for the following inputs: 
+
+<ol>
+<li>Red: for selecting a difficulty which isn't available.</li>
+<li>Blue: for selecting more than one letter and for runninf out of guesses.</li>
+<li>Yellow: for selecting a letter which has already been chosen.</li>
+<li>Green: for guessing the correct word.</li>
+</ol> 
+
 # Technologies Used 
 
 - Python 
