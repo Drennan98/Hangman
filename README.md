@@ -9,7 +9,9 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 # Stages Of The Program / Color Code
 
--
+- Landing Screen 
+
+![Landing Screen](images/landingscreen.png)
 
 # Technologies Used 
 
