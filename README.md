@@ -9,28 +9,7 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 # Stages Of The Program / Color Code
 
-- When the game loads up, this is what the user will see.
-
-![Start of game](images/startofprogram.png)
-
-- When the user selects a difficulty that's not available.
-
-![Wrong difficulty selection](images/wrongdifficulty.png)
-
-- The basic program layout, the "_" represent the number of letters in the word. The user can also see the number of guesses left
-and the guessed letters. The user must enter a single letter. 
-
-![Multiple letter input](images/multipleletterselection.png) ![Program layout](images/programlayout.png)
-
-- A yellow warning message appears when you guess a letter which was already guessed. 
-
-![Already guessed letter](images/alreadyguessedletter.png)
-
-- A green message "Well done!" message awaits the user when they guess the correct word. 
-
-![Guess correct word](images/guesscorrectword.png)
-
-- The messages are color coded for readability. They were previously all white which was difficult to read. 
+-
 
 # Technologies Used 
 
