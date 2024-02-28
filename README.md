@@ -81,11 +81,17 @@ and the guessed letters. The user must enter a single letter.
 
 - I want the program to have color coded feedback messages for easier readability. 
 
-# Validations 
+# Validations / Testing 
 
-- My Python code pass through the linter with no issues and scored 100%.
+- My Python code pass through the linter with no issues. 
 
 ![Python Validation](images/pythonvalidation.png)
+
+- I tested my project on Google Chrome and Mozilla Firefox and it works perfectly. 
+
+- I deployed the project to Heroku and the deployment went smoothly. (See below for deployment steps).
+
+- The project works exacly as intended. All print statements display correctly and I didn't encounter any bugs. 
 
 # Deployment 
 
