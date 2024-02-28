@@ -9,9 +9,13 @@ found it alot easier to handle than JavaScript. I started off putting together t
 
 # Stages Of The Program / Color Code
 
-- Landing Screen 
+- This is the landing screen, where the user can start the game and pick a difficulty. 
 
 ![Landing Screen](images/landingscreen.png)
+
+- The game features a simple layout, the "_" indicate how many letters are in the word, there's a counter for number of guesses left, the program will also show you the letters already guessed and it has an input field for entering a single letter. 
+
+![Program Layout](images/programlayout.png)
 
 # Technologies Used 
 
